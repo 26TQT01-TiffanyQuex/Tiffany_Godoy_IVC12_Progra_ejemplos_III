@@ -1,0 +1,11 @@
+Algoritmo Lecc30_Act1_inciso2_1
+	Definir color, i Como Caracter
+	Dimensionar color[3] 
+	color[rojo]=Primario
+	color[azúl]=Primario
+	color[amarillo]=Primario
+	
+	Escribir Sin Saltar "Escribe un color primario"
+	leer i
+	Escribir "El color: ",color[i] 
+FinAlgoritmo
