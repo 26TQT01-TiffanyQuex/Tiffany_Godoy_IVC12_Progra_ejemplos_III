@@ -1,0 +1,13 @@
+Algoritmo Lecc30_Act1_inciso2_2
+	Definir Mes, i Como Caracter
+	Dimensionar  mes[5] 
+	Mes[enero] = uno
+	Mes[febrero]= dos
+	Mes[Marzo]= tres
+	Mes[abril]= cuatro
+	
+	Escribir  "Escribe un mes de enero a abril"
+	leer i
+	
+	Escribir "Mes: ", Mes[i]
+FinAlgoritmo
