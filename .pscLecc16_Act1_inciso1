@@ -1,0 +1,18 @@
+Algoritmo Lecc16_Act1_inciso1
+	Definir color Como Caracter
+	Definir i Como Entero
+	Dimensionar color[8]
+	color[1]="café"
+	color[2]="lila"
+	color[3]="rojo"
+	color[4]="naranja"
+	color[5]="amarillo"
+	color[6]="verde"
+	color[7]="morado"
+	color[8]="negro"
+	
+	Escribir "Increse un número del 1 al 8"
+	leer i
+	Escribir "color: ", color[i]
+	
+FinAlgoritmo
