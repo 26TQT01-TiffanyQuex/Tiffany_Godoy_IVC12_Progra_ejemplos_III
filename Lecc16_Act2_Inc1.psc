@@ -1,0 +1,16 @@
+Proceso Lecc16_Act2
+	Dimension edadPersonas[7]
+	Definir indice, CantidadMayoresEdad Como Entero
+	CantidadMayoresEdad <- 0
+	
+	Para indice<-1 Hasta 7 Hacer
+		Escribir "Ingrese la edad de la persona ", indice, ": "
+		leer edadPersonas[indice]
+		
+		Si edadPersonas[indice]>= 18 Entonces
+			CantidadMayoresEdad <- CantidadMayoresEdad+1
+		Fin Si
+	Fin Para
+	
+	Escribir "Cantidad de personas mayores de edad: ", CantidadMayoresEdad
+FinProceso
