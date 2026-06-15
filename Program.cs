@@ -1,0 +1,30 @@
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int NumeroMayor=0, posiciónMayor=0;
+        int[] NumeroEntero= new int[7]; 
+
+        for (int i = 0; i < NumeroEntero.Length; i++)
+        {
+            Console.WriteLine("ingrese el número "+(i+1)+": ");
+            NumeroEntero[i] = Convert.ToInt32(Console.ReadLine());
+
+            if (NumeroEntero[i]> NumeroMayor)
+            {
+                NumeroMayor = NumeroEntero[i];
+                posiciónMayor = i+1;
+            }
+            else
+            {
+                if (NumeroEntero[i] > NumeroMayor)
+                {
+                    NumeroMayor = NumeroEntero[i];
+                    posiciónMayor = i+1;
+                }
+            }
+
+        }
+        Console.WriteLine("El número mayor es: "+NumeroMayor+"\nSu posición es: "+ posiciónMayor);
+    }
+}
