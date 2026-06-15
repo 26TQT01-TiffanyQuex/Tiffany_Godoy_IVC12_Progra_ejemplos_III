@@ -1,22 +1,26 @@
-Proceso lecc16_Act2_Inc2
-	Dimension numerosEnteros[8]
-	
-	Definir indice, numeroMayor, posicionMayor Como Entero
-	
+Proceso lecc16_Act2_Inc2
+
+	Dimension numerosEnteros[8]
+
+	Definir indice, numeroMayor, posicionMayor Como Entero
+
 	Para indice <-1 Hasta 8 Hacer
-		Escribir "Ingrese el n�mero ", indice, ": "
-		
-		leer numerosEnteros[indice]
-		
+		Escribir "Ingrese el número ", indice, ": "
+
+		leer numerosEnteros[indice]
+
 		Si indice=1 Entonces
-			numeroMayor <- numerosEnteros[indice]
+			numeroMayor <- numerosEnteros[indice]
+
 			posicionMayor <- indice
 		SiNo
 			Si numerosEnteros[indice] > numeroMayor Entonces
-				numeroMayor <- numerosEnteros[indice]
+				numeroMayor <- numerosEnteros[indice]
+
 				posicionMayor <- indice
 			FinSi
 		Fin Si
 	Fin Para
-	
+	Escribir "El número mayor es: ", numeroMayor
+	Escribir "Se encuentra en la posición: ", posicionMayor
 FinProceso
